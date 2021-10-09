@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Coordenadas</title>
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View-refresh_Gion_simple.svg/1049px-View-refresh_Gion_simple.svg.png"
+        type="image/png">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Iconos MD -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- Contenedor de Inputs -->
+            <br>
+            <div class="row">
+                <h1>Conversor de Coordenadas</h1>
+                <br>
+                <div class="input-field col s12 m4">
+                    <select class="icons" id="selector">
+                        <option value="" disabled selected><span>Escoge tu dimensión</span></option>
+                        <option value="overworld"
+                            data-icon="/img/overworld.png"
+                            class="left">Overworld</option>
+                        <option value="nether"
+                            data-icon="/img/nether.png"
+                            class="left">Nether</option>
+                    </select>
+                </div>
+                <div class="input-field col s12 m4">
+                    <input id="ejeX" type="text" class="validate">
+                    <label for="ejeX">Eje X:</label>
+                </div>
+                <div class="input-field col s12 m4">
+                    <input id="ejeZ" type="text" class="validate">
+                    <label for="ejeZ">Eje Z:</label>
+                </div>
+                <br>
+                <!-- Boton -->
+                <div class="col s12 center">
+                    <br>
+                    <button onclick="convertir()" class="waves-effect waves-light btn">
+                        <i class="material-icons right">cached</i>Convertir
+                    </button>
+                </div>
+            </div>
+            <!-- Contenedor de Resultados -->
+            <div class="row" id="resultados">
+                <div class="col s12">
+                    <p>Resultados</p>
+                </div>
+                <div class="col s12 m3 resultado" id="cajaX">
+                    <!-- Resultado -->
+                </div>
+                <div class="col s12 m3 resultado" id="cajaZ">
+                    <!-- Resultado -->
+                </div>
+            </div>
+            <br>
+        </div>
+    </header>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Conversor -->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

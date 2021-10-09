@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: #6d7c90 !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 0 !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+header {
+  height: 100vh;
+}
+
+.btn {
+  background: #6d7c90 !important;
+  box-shadow: unset !important;
+}
+
+.btn:hover {
+  box-shadow: 0 2px 14px 0 #6d7c9082 !important;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span,
+input {
+  color: #6d7c90 !important;
+}
+
+.dropdown-content li > span:first-child {
+  font-size: 14px !important;
+}
+
+.row {
+  box-shadow: 0 4px 24px 0 rgba(103, 151, 255, 0.1),
+    0 12px 64px 0 rgba(103, 151, 255, 0.1);
+  padding: 20px;
+}
+
+.nether {
+  color: rgb(123, 66, 238);
+  font-weight: 400;
+}
+
+.overworld {
+  color: rgb(3, 179, 3);
+  font-weight: 400;
+}

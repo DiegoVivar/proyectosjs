@@ -1,0 +1,60 @@
+body {
+  background: #aaffa9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #11ffbd, #aaffa9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #11ffbd, #aaffa9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.brand-logo {
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 15px !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.card-title {
+  font-size: 28px !important;
+  font-weight: 400 !important;
+}
+
+.tareaCreada {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-content: space-around;
+}
+
+.tareaCreada a {
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+.tareaCreada .titulo {
+  font-size: 25px !important;
+  color: #00897b !important;
+}
+
+hr {
+  margin: 25px 0 30px !important;
+  border: 0 !important;
+  border-top: 1px solid rgb(223, 222, 222) !important;
+}
+
+.rounded {
+  border-radius: 7px !important;
+}
+
+.btn-floating {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.btn-floating:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
